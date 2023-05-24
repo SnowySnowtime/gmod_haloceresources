@@ -1,4 +1,4 @@
-# gmod_haloceresources
-Stuff for the NPC's.
+# An upgrade to the original CE NextBots.
+Currently, just the sources for the NPC models.
 
-I'm probably not going to be working on anything else after this so blend file are also included for anyone wanting to port them to source themselves later for practice or whatnot.
+This is going to take a bit to do since this is being worked on in tandem with https://github.com/SnowySnowtime/arccw_halo_weapons
