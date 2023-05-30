@@ -1,0 +1,46 @@
+$lod 11
+{
+	replacemodel $smdFile$ $01_lod$
+	replacemodel $variant1$ $var1_01_lod$
+	replacemodel $variant2$ $var2_01_lod$
+}
+
+$lod 22
+{
+	nofacial
+	replacemodel $smdFile$  $02_lod$
+	replacemodel $variant1$ $var1_02_lod$
+	replacemodel $variant2$ $var2_02_lod$
+}
+
+$lod 33
+{
+	nofacial
+	replacemodel $smdFile$  $03_lod$
+	replacemodel $variant1$ $var1_03_lod$
+	replacemodel $variant2$ $var2_03_lod$
+}
+
+$lod 44
+{
+	nofacial
+	replacemodel $smdFile$  $04_lod$
+	replacemodel $variant1$ $var1_04_lod$
+	replacemodel $variant2$ $var2_04_lod$
+}
+
+$lod 55
+{
+	nofacial
+	replacemodel $smdFile$  $04_lod$
+	replacemodel "model/Variant1_Lod0.smd" "model/Variant1_Lod4.smd"
+	replacemodel "model/Variant2_Lod0.smd" "model/Variant1_Lod4.smd"
+}
+
+$shadowlod
+{
+	nofacial
+	replacemodel $smdFile$  $01_lod$
+	replacemodel "model/Variant1_Lod0.smd" "model/Variant1_Lod1.smd"
+	replacemodel "model/Variant2_Lod0.smd" "model/Variant1_Lod1.smd"
+}

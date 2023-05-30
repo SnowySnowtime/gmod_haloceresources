@@ -1,0 +1,4 @@
+$eyeposition 0 0 0
+$attachment "eyes"    "bip01 head"	  -07.000  004.250  000.000 rotate 180.000 000.000 000.000
+$attachment "foot_L"  "bip01 l foot"  000.000  000.000  000.000 rotate 000.000 000.000 000.000
+$attachment "foot_R"  "bip01 r foot"  000.000  000.000  000.000 rotate 000.000 000.000 000.000

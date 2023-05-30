@@ -1,0 +1,36 @@
+// include the attachments
+$include "qci/grunt_attachments.qci"
+
+$model grunt $smdFile$
+
+//bodygroups for the two grunt variants
+$bodygroup variant
+{
+	studio $variant1$
+	studio $variant2$
+}
+
+$sequence  ref    $smdFile$
+
+// include the standard boneset
+$include "qci/grunt_definebones.qci"
+
+$surfaceprop "flesh"
+
+// include the ragdoll (Not for now)
+// $include "qci/grunt_ragdoll.qci"
+
+// include the hitboxes
+$include "qci/grunt_hitbox.qci"
+
+// include the material path/texturegroup
+$include "qci/grunt_materials.qci"
+
+// include the LOD
+$include "qci/lodhandler.qci"
+
+// include the file that sets up the ikchains (Not for now)
+// $include "TF_animation_rules/ruleshierarchy.qci"
+
+// include the animations.mdl
+$includemodel "snowysnowtime/ce/cov/grunt_animations.mdl"

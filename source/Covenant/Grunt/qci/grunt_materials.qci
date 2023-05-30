@@ -1,0 +1,6 @@
+// Materials and texturegroups
+$cdmaterials "models/snowysnowtime/ce/cov/grunt/"
+$texturegroup "grunt_Skins"
+{
+	{ "grunt diffuse"        "grunt torso"        "grunt head and back"     "grunt diffuse1"   "grunt torso1"    "grunt head and back1" }
+}
